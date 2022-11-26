@@ -1,0 +1,27 @@
+.code_block_div pre {
+    max-height: 400px;
+}
+
+.code_block_component{
+    margin: 2rem 1rem;
+    background-color: #F5F5F5;
+}
+
+.code_block_icon{
+    margin-right:5px;
+}
+
+.code_block_div{
+    max-height: 50vh;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+
+.code_block_div pre {
+    min-height: 200px;
+}
+
+.code_block__copy {
+    justify-content: center;
+    display: flex;
+}

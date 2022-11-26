@@ -19,7 +19,7 @@
             "collateral": [
                 {
                     "assetName": "property",
-                    "estimatedValues": 70000
+                    "estimatedValues": 7000
                 }
             ]
         },
@@ -32,23 +32,15 @@
                 {
                     "assetName": "condo",
                     "estimatedValues": 30000
-                },
-                {
-                    "assetName": "vehicle",
-                    "estimatedValues": 3000
                 }
             ]
         },
         {
             "princicpal": 60000,
             "periodInYears": "4",
-            "rateOfInterest": 12,
-            "collateral": [
-                {
-                    "assetName": "jewellery",
-                    "estimatedValues": 30000
-                }
-            ]
+            "rateOfInterest": 12
         }
-    ]
+    ],
+    "liquid_assets": 100000,
+    "non_liquid_assets": 300000
 }

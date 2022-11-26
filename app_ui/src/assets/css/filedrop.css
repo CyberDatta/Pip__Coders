@@ -1,0 +1,18 @@
+.file_form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.file_form__label {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.file_form__file_format {
+    text-decoration: underline;
+}

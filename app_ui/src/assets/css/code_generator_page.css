@@ -1,0 +1,41 @@
+.code_generator {
+    padding: 10px;
+}
+
+.code_generator__container_input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.code_generator > h2 {
+    text-align: center;
+}
+
+.code_generator__generate-btn .col {
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.code_generator__loader {
+    animation: rotate infinite 0.5s;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .code_generator__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
