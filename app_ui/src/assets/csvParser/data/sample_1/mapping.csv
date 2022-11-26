@@ -1,0 +1,8 @@
+No.,Target, Source, Enumeration
+1, SSN, source_json.id, -
+2, CustomerFullName, source_json.firstName + source_json.lastName, -
+3, CustomerAddress, source_json.address.street + source_json.address.suite, -
+4, CustomerCity, source_json.address.city, -
+5, CustomerZipCode, source_json.address.zipcode, -
+6, CustomerProfession, ENUM[source_json.occupation], {"self-employed": "SELF""," "salaried": "FIXED INCOME""," "other": "MISC"}
+7, CustomerAge, source_json.age, -
